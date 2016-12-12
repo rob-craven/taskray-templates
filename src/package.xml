@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ApplicationException</members>
+        <members>ApplicationException_Test</members>
+        <members>TaskRayTemplateService</members>
+        <members>TaskRayTemplateService_Test</members>
+        <members>ctrl_taskray_template_chklst_ext</members>
+        <members>ctrl_taskray_template_chklst_ext_test</members>
+        <members>ctrl_taskray_template_clone_ext</members>
+        <members>ctrl_taskray_template_clone_ext_test</members>
+        <members>ctrl_taskray_template_tasklst_ext</members>
+        <members>ctrl_taskray_template_tasklst_ext_test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>taskray_template_chklist_action</members>
+        <members>taskray_template_clone</members>
+        <members>taskray_template_tasklst_action</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>TaskRay_Template_Item__c</members>
+        <members>TaskRay_Template__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>TaskRay_Template__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>TaskRay_Template_Item__c-Checklist Item Layout</members>
+        <members>TaskRay_Template_Item__c-Task Layout</members>
+        <members>TaskRay_Template__c-TaskRay Template Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>jquery_311</members>
+        <members>select2_403</members>
+        <name>StaticResource</name>
+    </types>
+    <version>37.0</version>
+</Package>

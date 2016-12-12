@@ -1,0 +1,9 @@
+<apex:page standardController="TaskRay_Template__c" extensions="ctrl_taskray_template_clone_ext" action="{!cloneWithChildren}">
+	
+	<!-- breadcrumb link back -->
+	<apex:outputPanel rendered="{!pageHasErrors}" style="display:block;padding: 5px;margin-left: 10px;margin-top:4px;">
+		<div class="ptBreadcrumb">&nbsp;«&nbsp;<a href="{!returnURL}">Previous page</a></div><br />
+	</apex:outputPanel>
+
+	<apex:pageMessages />
+</apex:page>
