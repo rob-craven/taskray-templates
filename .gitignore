@@ -1,4 +1,65 @@
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
 .project
-.settings
+.settings/
+.metadata
+build.properties
+config
+
+# Apex Log as optional
+apex-scripts/log
+
+# Eclipse specific 
 salesforce.schema
 Referenced Packages
+bin/
+tmp/
+config/
+*.tmp
+*.bak 
+local.properties
+.settings
+.loadpath
+.classpath
+*.cache
+
+# Mavensmate
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+mm.log
+apex-scripts/
+
+# OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+# Salesforce sent emails
+FTI_Maintenance_Notice_Sent/
+
+# ui-src assets
+
+!ui-src/config/
+
+# Logs
+logs
+*.log
+
+# Coverage for tests (istanbul)
+/ui-src/coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Node Files #
+/ui-src/node_modules
+/ui-src/npm-debug.log
+
+# Resource #
+/resource-bundles/
+/ui-src/.webpack.json
+
+# WebStorm IDE #
+.idea/
+*.swp
