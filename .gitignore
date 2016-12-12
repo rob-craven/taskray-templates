@@ -33,13 +33,6 @@ apex-scripts/
 # OSX-specific exclusions
 .[dD][sS]_[sS]tore
 
-# Salesforce sent emails
-FTI_Maintenance_Notice_Sent/
-
-# ui-src assets
-
-!ui-src/config/
-
 # Logs
 logs
 *.log
