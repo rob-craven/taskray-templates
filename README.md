@@ -9,16 +9,16 @@ TaskRay Templates
 TaskRay extention that allows end users to create templates of tasks and checklist items that can then be cloned using chatter publisher actions.  100% native Salesforce.com Look and Feel. 
 
 ##Template Screenshot
-Ability to create template lists of Tasks or Checklist Items
+Ability to create template lists of tasks or checklist items
 
 <img alt="Template Screenshot" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/taskray_template_checklist.png">
 
-##Project Chatter Publisher Action Screenshot
-Ability to clone any Task template for any given Project 
+##Task Publisher Action Screenshot
+Ability to clone any *task* template for any given *project* 
 
 <img alt="Task Publisher Action" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/task_publisher_action.png">
 
-##Project Chatter Publisher Action Screenshot
-Ability to clone any Checklist template for any given Task 
+##Checklist Publisher Action Screenshot
+Ability to clone any *checklist* template for any given *task* 
 
 <img alt="Checklist Publisher Action" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/checklist_publisher_action.png">
