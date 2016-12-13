@@ -22,3 +22,23 @@ Ability to clone any *task* template for any given *project*.
 Ability to clone any *checklist* template for any given *task*.  Note, Green checkmark indicates template was successfully cloned.
 
 <img alt="Checklist Publisher Action" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/checklist_publisher_action.png">
+
+##Features:
+* Native Salesforce
+* Create template lists of TaskRay tasks or checklists
+* Custom template clone button used to clone both the parent template and child template items
+* Task publisher action
+* Checklist publisher action
+* Publisher actions use Select2 drop-down for type-ahead feature
+
+## Configuration
+* Ensure to add publisher action(s) to pagelayouts
+
+##Implementation Notes
+* Template item record types are not enforced.  A template when cloned will only contain the child items that are approriate for the given publisher action.  Ideally, it would be nice if Salesforce provided an option to allow administrators to default the child record type based on criteria of the parent record.
+  * Please help vote up the following Salesforce idea, [Allow child record type to be based on parent](https://success.salesforce.com/ideaView?id=0873A000000CNNqQAO")
+
+##Thrid-Party Code
+This solution makes use of the following third-party components:
+*[jQuery](https://jquery.com/)
+*[Select2](https://select2.github.io/)
