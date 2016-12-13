@@ -32,12 +32,20 @@ Ability to clone any *checklist* template for any given *task*.  Note, Green che
 * Publisher actions use Select2 drop-down for type-ahead feature
 
 ## Configuration
-* Add publisher action buttons to TaskRay Project object:
+* Add publisher action buttons to *TaskRay Project* object:
   * *Setup -> Create -> Objects -> Select TaskRay Project*
   * Under section *Buttons, Links, and Actions* - click "new action"
   * Setup action as follows:
     <img alt="task action setup" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/add_task_action_button.png">
-  * Update page layout, add new *Templates* action button to Quick Action menu
+  * Update page layout, add new *Templates* action button to quick action menu
+    <img alt="quick action config" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/page_layout_quick_actions_config.png">
+
+* Add publisher action buttons to *TaskRay Task* object:
+  * *Setup -> Create -> Objects -> Select TaskRay Task*
+  * Under section *Buttons, Links, and Actions* - click "new action"
+  * Setup action as follows:
+    <img alt="task action setup" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/add_checklist_action_button.png">
+  * Update page layout, add new *Templates* action button to quick action menu
     <img alt="quick action config" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/page_layout_quick_actions_config.png">
 
 ##Implementation Notes
