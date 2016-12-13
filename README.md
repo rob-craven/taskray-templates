@@ -55,5 +55,5 @@ Ability to clone any *checklist* template for any given *task*.  Note, Green che
 
 ##Thrid-Party Code
 This solution makes use of the following third-party components:
-*[jQuery](https://jquery.com/)
-*[Select2](https://select2.github.io/)
+* [jQuery](https://jquery.com/)
+* [Select2](https://select2.github.io/)
