@@ -36,9 +36,9 @@ Ability to clone any *checklist* template for any given *task*.  Note, Green che
   * *Setup -> Create -> Objects -> Select TaskRay Project*
   * Under section *Buttons, Links, and Actions* - click "new action"
   * Setup action as follows:
-    * <img alt="task action setup" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/add_task_action.png">
+    <img alt="task action setup" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/add_task_action_button.png">
   * Update page layout, add new *Templates* action button to Quick Action menu
-    * <img alt="quick action config" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/page_layout_quick_actions_config.png">
+    <img alt="quick action config" src="https://raw.githubusercontent.com/rob-craven/taskray-templates/master/resources/img/page_layout_quick_actions_config.png">
 
 ##Implementation Notes
 * Template item record types are not enforced.  A template when cloned will only contain the child items that are approriate for the given publisher action.  Ideally, it would be nice if Salesforce provided an option to allow administrators to default the child record type based on criteria of the parent record.
