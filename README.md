@@ -6,7 +6,7 @@ TaskRay Templates
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-TaskRay extention that allows end users to create templates of tasks and checklist items that can then be cloned using chatter publisher actions.  100% native Salesforce.com Look and Feel. 
+[TaskRay](http://taskray.com) extention that allows end users to create templates of tasks and checklist items that can then be cloned using chatter publisher actions.  100% native Salesforce.com Look and Feel. 
 
 ##Template Screenshot
 Ability to create template lists of tasks or checklist items.  Custom clone button used to clone both the parent template and child template items.
