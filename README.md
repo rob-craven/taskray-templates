@@ -63,7 +63,7 @@ Ability to clone any *checklist* template for any given *task*.  Note, Green che
 ##Implementation Notes
 * Template item record types are not enforced.  A template when cloned will only contain the child items that are approriate for the given publisher action.  Ideally, it would be nice if Salesforce provided an option to allow administrators to default the child record type based on criteria of the parent record.
 
-  * Please help vote up the following Salesforce idea, [Allow child record type to be based on parent](https://success.salesforce.com/ideaView?id=0873A000000CNNqQAO")
+  * Please help vote up the following Salesforce idea, [Allow child record type to be based on parent](https://success.salesforce.com/ideaView?id=0873A000000CNNqQAO)
 
 ##Thrid-Party Code
 This solution makes use of the following third-party components:
