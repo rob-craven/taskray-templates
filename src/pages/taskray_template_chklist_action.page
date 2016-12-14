@@ -40,7 +40,7 @@
             <apex:image value="/img/msg_icons/error16.png" rendered="{!hasError}"/><apex:outputText escape="false" rendered="{!hasError}">&nbsp;&nbsp;{!lastError}<hr /></apex:outputText>
         </apex:outputPanel>
 
-        <apex:selectList value="{!selectedOption}" multiselect="false" size="1" id="selectTemplate" style="width:70%;" > 
+        <apex:selectList value="{!selectedOption}" multiselect="false" size="1" id="selectTemplate" style="width:70%;" rendered="{!hasTemplates}"> 
             <apex:selectOptions value="{!lstTemplateOptions}"/> 
         </apex:selectList>
 
@@ -49,7 +49,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;<img class="loading-icon" src="/s.gif" />
             </apex:facet>
             <apex:facet name="stop">
-                <apex:commandLink value="Create" styleClass="btn" style="text-decoration: none;padding: 6px 8px 6px 8px;margin: 0 10px 0 10px;" action="{!createChecklist}" rerender="msg,suc" oncomplete="hideImage();refreshFeed();" status="btnClickStatus" rendered="true" />
+                <apex:commandLink value="Create" styleClass="btn" style="text-decoration: none;padding: 6px 8px 6px 8px;margin: 0 10px 0 10px;" action="{!createChecklist}" rerender="msg,suc" oncomplete="hideImage();refreshFeed();" status="btnClickStatus" rendered="{!hasTemplates}" />
             </apex:facet>
         </apex:actionStatus>        
 
